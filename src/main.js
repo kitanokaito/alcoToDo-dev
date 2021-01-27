@@ -8,15 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.config.productionTip = false
-const axiosBase = axios.create({
-  baseURL: 'https://kitanokaito.github.io/alcoToDo-dev/',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  credentials: true,
-  responseType: 'json'
-})
-Vue.use(VueAxios, axiosBase)
+Vue.use(VueAxios, axios)
 
 library.add(fas)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
