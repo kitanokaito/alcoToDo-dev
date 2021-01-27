@@ -24,7 +24,7 @@ export default {
   methods: {
     async getAppInfo () {
       const axiosBase = axios.create({
-        baseURL: 'https://kitanokaito.github.io/alcoToDo-dev/',
+        baseURL: 'https://kitanokaito.github.io/alcoToDo-dev',
         headers: {
           'Content-Type': 'application/json'
         },
