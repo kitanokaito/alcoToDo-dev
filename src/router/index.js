@@ -7,12 +7,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/alcoToDo-dev/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/privacy',
+    path: '/alcoToDo-dev/privacy',
     name: 'Privacy',
     component: Privacy
   }
@@ -20,7 +20,6 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: 'https://kitanokaito.github.io/alcoToDo-dev',
   routes
 })
 
