@@ -10,7 +10,7 @@
       let port = l.port ? ':' + l.port : ''
       console.log(port);
       l.replace(
-        `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${l.pathname.split('/').slice(1, 1 + segmentCount).join('/')}`
+        `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${l.pathname.split('/').slice(0, 1 + segmentCount).join('/')}`
       )
     </script>
   </head>
