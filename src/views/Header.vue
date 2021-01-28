@@ -1,6 +1,6 @@
 <template>
   <header>
-    <router-link class="link" to="/alcoToDo-dev"><img class="topicon" :src="appIcon" alt=""></router-link>
+    <router-link class="link" to="/"><img class="topicon" :src="appIcon" alt=""></router-link>
     <h2 class="title">{{ appName }}</h2>
     <h2 class="subtitle">〜 ToDo&お酒管理で素敵なdrinking lifeを 〜</h2>
   </header>

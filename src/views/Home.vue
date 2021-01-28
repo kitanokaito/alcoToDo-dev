@@ -47,7 +47,7 @@
     </div>
     <footer>
       <p>Made By <a class="link" href="https://twitter.com/kaitoshibaura">kitanokaito</a></p>
-      <router-link class="link" to="/alcoToDo-dev/privacy">プライバシーポリシー</router-link>
+      <router-link class="link" to="/privacy">プライバシーポリシー</router-link>
     </footer>
   </div>
 </template>
