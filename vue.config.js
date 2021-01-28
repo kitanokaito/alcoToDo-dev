@@ -1,4 +1,6 @@
 module.exports = {
-  publicPath: './',
-  outputDir: 'docs/',
+  publicPath: '/alcoToDo-dev',
+  outputDir: 'docs',
+  filenameHashing: false,
+  productionSourceMap: false,
 }
