@@ -18,7 +18,7 @@
                 </div>
                 <p class="appinfo-description">ToDo機能を使ってゆるーくお酒管理しましょう</p>
                 <a :href="appLink">
-                  <img class="appinfo-storelinkbutton" src="../assets/appstoreButton.png" alt="" width=220 height=75>
+                  <img class="appinfo-storelinkbutton" src="/public/img/appstoreButton.png" alt="" width=220 height=75>
                 </a>
 
               </div>
