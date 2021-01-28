@@ -7,18 +7,19 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/alcoToDo-dev/',
+    path: '/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/alcoToDo-dev/privacy',
+    path: '/privacy',
     name: 'Privacy',
     component: Privacy
   }
 ]
 
 const router = new VueRouter({
+  base: 'https://kitanokaito.github.io/alcoToDo-dev',
   routes
 })
 
