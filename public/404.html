@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>アルコToDo</title>
     <script type="text/javascript">
-      let segmentCount = 2; // [2018/2/2 Added]: 変数が抜けていると指摘がありましたので，追加しました．
       let repositoryName = '/alcoToDo-dev';
       let l = window.location;
       let port = l.port ? ':' + l.port : ''
-      console.log(port);
-      l.replace(
-        `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${l.pathname.split('/').slice(2).join('/')}`
-      )
+      let uri = l.pathname.split('/').slice(2).join('/');
+      if (uri == '/' || uri == '/privacy') {
+        l.replace(
+          `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${url}`
+        )
+      }
     </script>
   </head>
   <body>
+    <h1>404</h1>
+    <p><strong>指定されたurlは存在しません.</strong></p>
   </body>
 </html>
