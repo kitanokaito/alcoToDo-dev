@@ -10,7 +10,7 @@
       let uri = l.pathname.split('/').slice(2).join('/');
       // if (uri == '/' || uri == '/privacy') {
         l.replace(
-          `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${url}`
+          `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${uri}`
         )
       // }
     </script>
