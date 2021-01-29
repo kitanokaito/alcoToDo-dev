@@ -8,11 +8,11 @@
       let l = window.location;
       let port = l.port ? ':' + l.port : ''
       let uri = l.pathname.split('/').slice(2).join('/');
-      // if (uri == '/' || uri == '/privacy') {
+      if (uri == 'privacy') {
         l.replace(
           `${l.protocol}//${l.hostname}${port}${repositoryName}/?p=${uri}`
         )
-      // }
+      }
     </script>
   </head>
   <body>
